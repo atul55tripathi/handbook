@@ -1,6 +1,29 @@
+/******************tag selector******************/
 body{
-    background-color: #222831;
+    background-color: #7d9fd3;
 }
 h1{
-    color:#00ADB5;
+    color:#f1f6f7;
 }
+p,div,li{
+    color: white;
+}
+hr {
+    border-style: none none dotted none;
+    height: 2px;
+    width: 15%;
+    border-width: 5px;
+    border-color: #c56b48;
+  }
+
+/******************class selectors******************/
+
+.corn{
+    background-color: lightblue;
+}
+.fire{
+    background-color: red;
+}
+
+/******************identity selector******************/
+
