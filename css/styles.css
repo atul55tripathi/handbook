@@ -24,6 +24,12 @@ hr {
 .fire{
     background-color: red;
 }
+.circle{
+    border-radius: 100%;
+}
+.corn:hover,.fire:hover{
+    background-color: white;
+}
 
 /******************identity selector******************/
 
