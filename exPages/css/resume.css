@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(175, 213, 218);
+    text-align: center;
+    font-family: monospace;
+}
+.bottom{
+    position:absolute;
+    top: 10px;
+    right: 10px;
+}
+.atulName{
+    width: 50%;
+    margin: 10px auto;
+}
+.top{
+    margin:50px auto;
+}
+.dp{
+    width: 20%;
+    height: 10%;
+    float: left;
+    margin: 10px ;
+}
+h1{
+    color:rgb(91, 91, 216);
+}
+h3{
+    color: rgb(113, 113, 201);
+}
+h2{
+    color: rgb(65, 65, 139)
+}
+.skill-row{
+    width: 50%;
+    margin: 10% auto;
+    text-align: left;
+    line-height: 2;
+
+}
+.imagesin{
+    width: 200px;
+}

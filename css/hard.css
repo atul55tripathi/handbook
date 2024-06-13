@@ -1,6 +1,16 @@
 body{
-    background-color: antiquewhite;
+    background-color: rgba(226, 227, 231, 0.534);
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
 }
 p{
-    color: rgb(121, 74, 13);
+    color: rgb(53, 40, 236);
 }
+
+  body{
+    font-size: 16px;
+  }

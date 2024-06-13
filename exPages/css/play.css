@@ -1,0 +1,29 @@
+div{
+    width: 80px;
+    height: 80px;
+}
+.red{
+    position: absolute;
+    background-color: red;
+    top: 40px;
+
+
+}
+.green{
+    position: absolute;
+    background-color: lightgreen;
+    left: 168px;
+    top: 200px;
+
+
+}
+.yellow{
+    position: absolute;
+    background-color: yellow;
+    left: 88px;
+    top: 120px;
+
+}
+div:hover{
+    background-color: black;
+}
