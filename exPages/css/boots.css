@@ -11,7 +11,7 @@ body{
     width: 100%;
     background-color: #254336;
     color: #DAD3BE;
-    background: linear-gradient(to right,#254336a8,#25433660), url(../resumeImages/rain.jpg);
+    background: linear-gradient(to right,#254336a8,#25433600), url(../resumeImages/rain.jpg);
     background-size:cover;
 }
 .nav-link {
