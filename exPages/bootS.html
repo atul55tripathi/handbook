@@ -1,40 +1,69 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Bootstrap basics</title>
-    <link rel="stylesheet" href="./css/boots.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/boots.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Shadows+Into+Light&display=swap" rel="stylesheet">
   </head>
   <body>
-    <a class="backing" href="../index.html">go back</a>
-    
     <!-- coding area begin -->
-     <!-- start of navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary " data-bs-theme="dark">
-      <div class="container-fluid">
+    <!-- start of navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-md">
         <a class="navbar-brand" href="#">Learning Styling in Bootstrap</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="../index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="../boot/bootLearn.html">read more about bootstrap</a>
+              <a class="nav-link" href="../boot/bootLearn.html"
+                >read more about bootstrap</a
+              >
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
                 Dropdown
               </a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
               </ul>
             </li>
             <li class="nav-item">
@@ -48,9 +77,182 @@
       </div>
     </nav>
     <!-- end of navbar  -->
+
+    <!-- header section  -->
+
+    <header class="header">
+      <div class="container h-100">
+        <div class="row h-120 align-items-center">
+          <div class="col-md-12 text-center move-down">
+            <h1>Welcome to this bootstrap based Web Page</h1>
+            <p>
+              dignissimos dolor. Dolores, quaerat. - necessitatibus laudantium
+              cumque assumenda, corporis repellendus voluptas ea? Blanditiis ad
+              reprehlpa commesentium, odio reprehenderit minima unde earum
+              voluptates? Blanditiis sapiente optio et iusto veritatis velit
+              voluptas itaque, aliquam laudantium officia enim, quaerat
+              accusantium? Delectus?
+            </p>
+            <button type="button" class="btn btn-primary">Keep learning</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ending of header section -->
+
+    <!-- start of message section  -->
+
+    <section class="message py-5">
+      <div class="container text-center">
+        <h1>thoda bohot site k baare me</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+          debitis ab illum laboriosam sint voluptatibus modi quibusdam magni,
+          at, nulla laborum distinctio cum itaque adipisci reiciendis quo, id
+          optio nisi.
+        </p>
+        <button class="btn btn-primary">check this out</button>
+      </div>
+    </section>
+
+    <!-- end of message section  -->
+
+    <!-- cards section  -->
+
+    <section class="services">
+      <div class="container text-center py-5">
+        <h1>About Bootstrap</h1>
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="./resumeImages/credit-card.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <h1>card info</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                vel magni eveniet laboriosam, accusamus voluptatum veritatis
+                perspiciatis excepturi autem tenetur recusandae at. Quae,
+                cupiditate nisi voluptate deleniti magni temporibus tempore!
+              </p>
+              <button class="btn btn-primary">hi</button>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="./resumeImages/credit-card.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <h1>card info</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                vel magni eveniet laboriosam, accusamus voluptatum veritatis
+                perspiciatis excepturi autem tenetur recusandae at. Quae,
+                cupiditate nisi voluptate deleniti magni temporibus tempore!
+              </p>
+              <button class="btn btn-primary">hi</button>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="./resumeImages/credit-card.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <h1>card info</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+                vel magni eveniet laboriosam, accusamus voluptatum veritatis
+                perspiciatis excepturi autem tenetur recusandae at. Quae,
+                cupiditate nisi voluptate deleniti magni temporibus tempore!
+              </p>
+              <button class="btn btn-primary">hi</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end cards section  -->
+
+    <!-- download section  -->
+
+    <section class="message py-5">
+      <div class="container text-center">
+        <h1>Download and start !!</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam
+          debitis ab illum laboriosam sint voluptatibus modi quibusdam magni,
+          at, nulla laborum distinctio cum itaque adipisci reiciendis quo, id
+          optio nisi.
+        </p>
+        <button class="btn btn-primary">DOWNLOAD</button>
+      </div>
+    </section>
+
+    <!-- end download section  -->
+
+    <!-- contact section  -->
+
+    <section class="contact">
+      <div class="container text-center">
+        <h1>Lets get in touch</h1>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione
+          accusantium ipsum vtium sint blanditiis delectus ratione
+          alias.
+        </p>
+        <img class="contactimg" src="/exPages/resumeImages/linkedin.png" alt="">
+        <img class="contactimg" src="/exPages/resumeImages/instagram.png" alt="">
+        <img class="contactimg" src="/exPages/resumeImages/youtube.png" alt="">
+      </div>
+    </section>
+
+    <!-- end of contact section  -->
+
+    <!-- important links  -->
+
+    <!-- <section class="message py-3">
+      <div class="container text-center">
+        <h1>Important Links</h1>
+        <p>
+          Lorem ipsum
+        </p>
+      </div>
+    </section> -->
+
+    <!-- ending of important links  -->
+
+    <!-- footer section shuru  -->
+
+    <section class="footer">
+
+      <div class="container-fluid py-5 text-center">
+        <h3>
+          Copyright  &copy; 2024 - Tripathi Groups Ltd.
+        </h3>
+      </div>
+
+    </section>
+
+    <!-- footer section ending  -->
+
     <!-- coding area end -->
-    
-    <script src="./java/boot.js" ></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <script src="./java/boot.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
