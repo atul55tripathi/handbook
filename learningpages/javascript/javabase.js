@@ -31,3 +31,13 @@
 // }
 // k=prompt("number of days");
 // weekmonth(k);
+
+// function to illustrate if else
+// function cal(k)
+// {
+//     if(k===true)
+//         console.log(true);
+//     else 
+//         console.log(false);
+// }
+// cal(false);
