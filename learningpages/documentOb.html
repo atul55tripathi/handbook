@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <a href="../index.html"> try goining back</a>
+    <h2>DOM basics</h2>
+
+    <div>
+      <p>
+        document.getElementByID("");
+        <br>
+        document.getElementByTagName("")[1];
+        <br>
+        document.querySelector("h1").classList.add("invisible"); // instead of add we can also use .remove .toggle(if not added then add, if added then ignore)
+        <br>
+        element.innerHTML gives all like ... em and strong bhi
+        <br>element.textcontext gives only the text inside
+        <br>
+      </p>
+      <h2>
+        how to change attributes?
+      </h2>
+      <p>
+        element.querySelector("a").getAttribute("href"); // uski value bta dega
+        <br>
+        element.querySelectorAll("a")[4].setAttribute("href","www.bing.com");
+      </p>
+      <p>
+        type document in console and non graphical object model will be
+        visible... <br />
+        to view visually use extension <strong> html tree generator </strong>
+      </p>
+
+      <p>
+        the above link is changed to go back using dom manipulation... <br />
+        <br>
+        var
+        heading=document.lastElementChild.lastElementChild.firstElementChild;
+        <br>
+        heading.innerHTML="go back";
+        <br>
+        heading.style.color="red";
+      </p>
+      <p>
+        need not search everytime... you can you query selector <br>
+        document.querySelector("p").style.color="blue";
+      </p> 
+      <p>
+        to used various styles for selected element use <a href="https://www.w3schools.com/jsref/dom_obj_style.asp" target="_blank"> dom style </a>
+        <br>
+        document.
+      </p>
+    </div>
+    <script src="./javascript/dom.js"></script>
+  </body>
+</html>
