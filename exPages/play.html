@@ -1,15 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./css/play.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./css/play.css" />
+  </head>
+  <body>
     <a href="../index.html">go back</a>
     <div class="red">red</div>
     <div class="yellow">yellow</div>
     <div class="green">green</div>
-</body>
+    <script>
+      function add(a, b) {
+        return a + b;
+      }
+      function sub(a, b) {
+        return a - b;
+      }
+      function mul(a, b) {
+        return a * b;
+      }
+      function div(a, b) {
+        return a / b;
+      }
+
+      var a = prompt("enter the first number");
+      var b = prompt("enter the second number");
+      var c = prompt("enter the function");
+      if (c == "+") alert("result is " + sum(a, b));
+      else if (c == "-") alert("result is " + sub(a, b));
+      else if (c == "*") alert("result is " + mul(a, b));
+      else if (c == "/") alert("result is " + div(a, b));
+      else alert("function not known");
+    </script>
+  </body>
 </html>
