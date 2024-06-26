@@ -11,12 +11,14 @@ for(i=0;i<n;i++)
     document.querySelectorAll("button")[i].addEventListener("click",function(){
         var c=this.classList[0];
         keytomusic(c);
+        animatekey(c);
     });
 
 document.addEventListener('keypress',function(event)
 {
     var c=event.key;
     keytomusic(c);
+    animatekey(c);
 });
 
 function keytomusic(c){
@@ -45,5 +47,14 @@ function keytomusic(c){
             var aud=new Audio('./sounds/tom-4.mp3');
             aud.play();
             break;
+            default: console.log("do nothing");
         }
+}
+function animatekey(c)
+{
+    var curEle=document.querySelector("."+c);
+    curEle.classList.add("pressed");
+    setTimeout(function(){
+        curEle.classList.remove("pressed")
+    },500);
 }
